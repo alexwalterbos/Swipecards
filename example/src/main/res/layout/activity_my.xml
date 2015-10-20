@@ -8,7 +8,10 @@
         android:background="#ffeee9e2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:rotation_degrees="15.5"
+        app:rotation_degrees="0"
+        app:stack_area_height="300"
+        app:horizon_distance="10"
+        app:delta_z="2"
         tools:context=".MyActivity" />
 
     <include layout="@layout/buttons" />

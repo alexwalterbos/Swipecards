@@ -47,7 +47,7 @@ public class MyActivity extends Activity {
 
 
         flingContainer.setAdapter(arrayAdapter);
-        flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
+        flingContainer.setFlingListener(new SwipeFlingAdapterView.OnFlingListener() {
             @Override
             public void removeFirstObjectInAdapter() {
                 // this is the simplest way to delete an object from the Adapter (/AdapterView)
